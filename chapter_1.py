@@ -1,0 +1,8 @@
+chai_mix = set()
+print(f"initial chai mix id : {id(chai_mix)}")
+print(f"initial chai mix id : {(chai_mix)}")
+chai_mix.add("water")
+chai_mix.add("tea leaves")
+chai_mix.add("sugar")
+print(f"initial chai mix id : {(chai_mix)}")
+print(f"after chai mix id : {id(chai_mix)}")
